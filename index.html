@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   <script src="index.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="log" id="logos"><img src="1.jpg" alt=""></div>
+       <div class="menu"> 
+           <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/CATEGORIES">CATEGORIES</a></li>
+            <li><a href="/about"></a>ABOUT</li>
+            <!-- <li class="timer">TIMER</li> -->
+        </ul>
+     </div>
+    </nav>
+<section class="songlist">
+<h3 id="songinfo">SONGS PLAYLIST</h3>
+
+<div class="playlist">
+
+<div class="songdetails">
+   <img src="music.png" alt="">   <span class="songname">   LET ME LOVE YOU  </span>   <strong>5:12</strong> <button onclick="plays()" id="playpause">PLAY</button>
+
+   
+</div>
+<div class="songdetails">
+<img src="music.png" alt="">   <span class="songname">   LET ME LOVE YOU  </span>   <strong>5:12</strong> <button id="playpause">PLAY</button>
+ </div>
+ <div class="songdetails">
+    <img src="music.png" alt="">   <span class="songname">   LET ME LOVE YOU  </span>   <strong>5:12</strong> <button id="playpause">PLAY</button>
+     </div>
+     <div class="songdetails">
+        <img src="music.png" alt="">   <span class="songname">   LET ME LOVE YOU  </span>   <strong>5:12</strong> <button id="playpause">PLAY</button>
+      </div>
+         <div class="songdetails">
+            <img src="music.png" alt="">   <span class="songname">   LET ME LOVE YOU  </span>   <strong>5:12</strong> <button id="playpause">PLAY</button>
+             </div>
+             <div class="songdetails">
+                <img src="music.png" alt="">   <span class="songname">   LET ME LOVE YOU  </span>   <strong>5:12</strong> <button id="playpause">PLAY</button>
+                 </div>
+                 <div class="songdetails">
+                    <img src="music.png" alt="">   <span class="songname">   LET ME LOVE YOU  </span>   <strong>5:12</strong> <button id="playpause">PLAY</button>
+                     </div>
+                     <div class="songdetails">
+                        <img src="music.png" alt="">   <span class="songname">   LET ME LOVE YOU  </span>   <strong>5:12</strong> <button id="playpause">PLAY</button>
+                         </div>
+                         <div class="songdetails">
+                            <img src="music.png" alt="">   <span class="songname">   LET ME LOVE YOU  </span>   <strong>5:12</strong> <button id="playpause">PLAY</button>
+                             </div>
+                             <div class="songdetails">
+                                <img src="music.png" alt="">   <span class="songname">   LET ME LOVE YOU  </span>   <strong>5:12</strong> <button id="playpause">PLAY</button>
+                                 </div>
+                                 
+
+</div>
+
+
+</section>
+<section class="playbar">
+    <div >
+<input  id="progress" type="range"   min="0" value="0"  max="100"></div>
+    
+<div class="buttons">
+   <span  onclick="lastsong()"> <img  id="lastsong" src="backward.png" alt=""></span>
+  <span onclick="player()"> <img src="pause-play-button.png" alt="" id="masterplay" ></span>
+    <span  onclick="newsong()"><img id="newsong"  src="forwards.png" alt=""></span>
+</div>
+</section>
+<footer></footer>
+</body>
+</html>
